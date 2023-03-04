@@ -1,0 +1,22 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "standard-with-typescript",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "project": "./.tsconfig.json",
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "semi": 0,
+        "space-before-function-paren":0,
+        "@typescript-eslint/semi": 0,
+        "@typescript-eslint/space-before-function-paren": 0,
+        "@typescript-eslint/prefer-nullish-coalescing": 0,
+        "@typescript-eslint/strict-boolean-expressions": 0
+    }
+}

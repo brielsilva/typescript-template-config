@@ -1,0 +1,1 @@
+# Basic config for my projects with typescript and node
