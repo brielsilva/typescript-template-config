@@ -18,13 +18,13 @@
     "jest": "^29.4.3",
     "lint-staged": "^13.1.2",
     "ts-jest": "^29.0.5",
-    "typescript": "*"
+    "typescript": "*",
+    "husky": "4"
   },
   "scripts": {
     "test": "jest",
     "test:staged": "jest"
   },
   "dependencies": {
-    "husky": "4"
   }
 }
